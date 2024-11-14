@@ -35,9 +35,7 @@ const getimage = (query) => {
               <div class="card-body">
                 <h5 class="card-title">${data.photographer}</h5>
                 <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                ${data.alt}
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
